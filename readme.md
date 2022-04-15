@@ -11,6 +11,7 @@
   [x] iniciar as configurações do typescript com npx tsc --init. Isso vai criar o arquivo tsconfig
   [x] Preparar as configurações do arquivo tsconfig
   [x] Preparar scripts para build
+  [x] Instalar rimraf -D para remover a pasta dist antes de fazer o build
  [] Eslint
   [x] Instalar o plugin do Eslint
   - ctrl + shift + p para abrir o terminal de configurações e procure por: Open User Settings.
@@ -20,5 +21,8 @@
  [] git
   [x] Executar o git init para iniciar um projeto git.
   [x] criar arquivo .gitignore
+  [] Configurar atalhos
+  [] Configurar visualização do git status
+  [] Configurar visualização do git log
  [] docker
  [] husky
