@@ -10,5 +10,6 @@
  [] dotenv
  [] git
   [x] Executar o git init para iniciar um projeto git.
+  [x] criar arquivo .gitignore
  [] docker
  [] husky
