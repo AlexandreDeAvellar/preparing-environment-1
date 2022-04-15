@@ -6,10 +6,11 @@
   - O editor config vai criar um serie de configurações para o ambiente.
   [x] Instalar a extensão do editorconfig.
   [x] Clicar com o botão direito do mouse no root e clicar em generate .editorconfig
- [] typescript
+ [x] typescript
   [x] install typescript with npm i -D typescript
-  [x] inicar as configurações do typescript com npx tsc --init. Isso vai criar o arquivo tsconfig
-  [] Preparar as configurações do arquivo tsconfig
+  [x] iniciar as configurações do typescript com npx tsc --init. Isso vai criar o arquivo tsconfig
+  [x] Preparar as configurações do arquivo tsconfig
+  [x] Preparar scripts para build
  [] Eslint
   [x] Instalar o plugin do Eslint
   - ctrl + shift + p para abrir o terminal de configurações e procure por: Open User Settings.
