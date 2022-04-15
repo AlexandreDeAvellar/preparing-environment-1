@@ -12,6 +12,11 @@
   [x] Preparar as configurações do arquivo tsconfig
   [x] Preparar scripts para build
   [x] Instalar rimraf -D para remover a pasta dist antes de fazer o build
+  [] Instalar tsconfig-paths -D para fazer resolução dos paths configurados no tsconfig
+   - Esse paths é para quando fizer um import não ser necessário fazer todo o caminho do arquivo.
+   - No arquivo tsconfig.json colocar as instruções baseUrl: ".", paths: {"@src/*": ["src/algumaPasta/*"]}
+   - Para fazer funcionar deve exectuar o comando ex: ts-node -r tsconfig-path/register src/server.ts
+   - Em produção: instalar tscpaths e configurar -- AINDA NÃO FUNCIONOU --
  [] Eslint
   [x] Instalar o plugin do Eslint
   - ctrl + shift + p para abrir o terminal de configurações e procure por: Open User Settings.
