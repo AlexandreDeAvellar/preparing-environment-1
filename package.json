@@ -1,0 +1,12 @@
+{
+  "name": "ambiente-1",
+  "version": "1.0.0",
+  "description": "- Este projeto é para treinamento de preparação de ambiente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

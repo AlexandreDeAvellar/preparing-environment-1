@@ -1,6 +1,7 @@
 - Este projeto é para treinamento de preparação de ambiente
  
 ► Instalando
+ [x] Iniciar o npm com npm init -y
  [] typescript
  [] Eslint
   [x] Instalar o plugin do Eslint
