@@ -2,6 +2,10 @@
  
 ► Instalando
  [x] Iniciar o npm com npm init -y
+ [] Criar o .editorconfig
+  - O editor config vai criar um serie de configurações para o ambiente.
+  [x] Instalar a extensão do editorconfig.
+  [x] Clicar com o botão direito do mouse no root e clicar em generate .editorconfig
  [] typescript
  [] Eslint
   [x] Instalar o plugin do Eslint
