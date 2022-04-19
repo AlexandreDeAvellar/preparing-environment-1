@@ -11,7 +11,7 @@
     "lint": "eslint ./src/** --fix",
     "jest:init": "jest --init",
     "test": "jest",
-    "lint:staged": "npm test --"
+    "test:staged": "npm test --"
   },
   "keywords": [],
   "author": "",
