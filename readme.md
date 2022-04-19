@@ -39,6 +39,16 @@
    [x] Comando de pre-commit: npx lint-staged
    [] Comando de pre-commit: npx EXECUTAR ALGUM SCRIPT DE TEST
  [] jest
+  [] Instalar o jest e suas extensões npm i -D jest @types/jest ts-jest
+   - ts-jest: É o que vai permitir escrever os testes em typescript
+  [] Configurar os scripts de teste
+   [x] Executar jest --init
+   [] Preparar as configurações do jest.config.js
+    - Configuração: 
+     -transform: Vai ser informado uma expressão regular que vai encontrar todos os arquivos .ts e rodar o ts-jest neles, isso vai fazer com que rodando o ts-jest os arquivos ts sejam convertidos para js e assim entendidos pelo jest.
+     - transform: { '.+\\.ts$': 'ts-jest' }
+  [x] Adicionar no eslintrs em env o jest: true
+  [] Adicionar nas configurações do husky para validar teste antes de commit e push
  [] dotenv
  [] git
   [x] Executar o git init para iniciar um projeto git.
