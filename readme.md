@@ -27,6 +27,17 @@
   - ctrl + shift + p para abrir o terminal de configurações e procure por: Open User Settings.
   - Pesquise por on save. Selecione a caixa "Editor: format on save" para garantir que será aplicado a formatação toda vez que salvar.
   [] lint-staged
+   [x] Instalar lint-staged -D
+   [] Criar arquivo lintstagedrc e colocar os comandos:
+    [x] Analisar erros de lint no código: eslint ./src/** --fix
+    [] Analisar erros de test no código: npm run test:staged
+ [] husky
+  [x] Instalar husky npm i -D husky
+  [x] Iniciar husky npx husky install
+  [x] Criar pre-commit e pre-push - npx husky add .husky/pre-commit, npx husky add .husky/pre-push
+  [] Informar nos arquivos do husky quais os comandos serão executados
+   [x] Comando de pre-commit: npx lint-staged
+   [] Comando de pre-commit: npx EXECUTAR ALGUM SCRIPT DE TEST
  [] jest
  [] dotenv
  [] git
@@ -37,4 +48,3 @@
   [] Configurar visualização do git log
   [] Git commit message linter
  [] docker
- [] husky
