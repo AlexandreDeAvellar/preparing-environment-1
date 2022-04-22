@@ -79,14 +79,17 @@
     - Teste executado antes de fazer um push para validar todos os testes
   [x] Adicionar nas configurações do husky para validar teste antes de commit e push
 
- [] dotenv
+ [x] dotenv
+  [x] instalar dotenv
+  [x] criar .env
+  [x] adicionar .env aos arquivos de ignore
 
  [] git
   [x] Executar o git init para iniciar um projeto git.
   [x] criar arquivo .gitignore
+  [] Git commit message linter
   [] Configurar atalhos
   [] Configurar visualização do git status
   [] Configurar visualização do git log
-  [] Git commit message linter
 
  [] docker
