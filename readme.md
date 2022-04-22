@@ -87,7 +87,11 @@
  [] git
   [x] Executar o git init para iniciar um projeto git.
   [x] criar arquivo .gitignore
-  [] Git commit message linter
+  [x] Git commit message linter: npm i -D git-commit-msg-linter
+   - git commit message linter tem uma incompatibilidade com o husky
+   - para resolver isso deve adicionar o seguinte comando
+    [x] npx husky add .husky/commit-msg 
+    [x] substituir o undefined por .git/hooks/commit-msg \$1
   [] Configurar atalhos
   [] Configurar visualização do git status
   [] Configurar visualização do git log
