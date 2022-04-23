@@ -2,6 +2,7 @@
  
 ► Instalando
  [x] Iniciar o npm com npm init -y
+
  [x] Criar o .editorconfig
   - O editor config vai criar um serie de configurações para o ambiente.
   - Como é instalado: Primeiro instala a extensão editorCongig e depois na raiz do projeto com botão direito escolher generate .editorConfig.
@@ -84,7 +85,7 @@
   [x] criar .env
   [x] adicionar .env aos arquivos de ignore
 
- [] git
+ [x] git
   [x] Executar o git init para iniciar um projeto git.
   [x] criar arquivo .gitignore
   [x] Git commit message linter: npm i -D git-commit-msg-linter
@@ -92,8 +93,19 @@
    - para resolver isso deve adicionar o seguinte comando
     [x] npx husky add .husky/commit-msg 
     [x] substituir o undefined por .git/hooks/commit-msg \$1
-  [] Configurar atalhos
-  [] Configurar visualização do git status
-  [] Configurar visualização do git log
+  [x] Habilitar git para abrir as configurações com vscode
+   - git config --local core.editor code
+   - abrir com git config --local --edit
+   - colocar na frente do 'editor = code' o --wait
+  [x] Configurar atalhos
+   [x] adicionar a opção [alias]
+   [x] Configurar commit
+    - m = !git commit -m
+   [x] Configurar add . e commit
+    - c = !git add . & git commit -m
+   [x] Configurar git status
+    - s = !git status -s
+   [x] Configurar git log
+    - l = !git log --pretty='format:%C(green)%h %d%C(blue)%cn %C(red)%cr %C(white)%s'
 
  [] docker
