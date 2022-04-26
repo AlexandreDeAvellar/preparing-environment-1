@@ -7,8 +7,6 @@ services:
     restart: always
     ports:
       - ${SERVER_PORT}:${SERVER_PORT}
-    command: bash -c "npm i dotenv && npm start"
+    command: bash -c "npm i -D dotenv && npm start"
     volumes:
       - ./dist/:/src/dist/
-    env_file:
-      - ./.env
