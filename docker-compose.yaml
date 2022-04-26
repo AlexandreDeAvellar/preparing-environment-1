@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  api_ambiente1:
+    container_name: container_ambiente_1
+    image: ambiente_1
+    build: .
+    restart: always
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
+    command: bash -c "npm i dotenv && npm start"
+    volumes:
+      - ./dist/:/src/dist/
+    env_file:
+      - ./.env

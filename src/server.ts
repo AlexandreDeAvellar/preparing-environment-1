@@ -6,7 +6,7 @@ const port = process.env.SERVER_PORT
 app.get('/', (request: Request, response: Response) => {
   response.status(200).json({
     body: {
-      message: 'Server running'
+      message: 'Server running novo'
     }
   })
 })

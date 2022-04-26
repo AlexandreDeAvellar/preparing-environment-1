@@ -108,4 +108,6 @@
    [x] Configurar git log
     - l = !git log --pretty='format:%C(green)%h %d%C(blue)%cn %C(red)%cr %C(white)%s'
 
- [] docker
+ [x] docker
+  [x] criar dockerfile e configurar
+  [x] criar docker-compose e configurar
